@@ -1,0 +1,54 @@
+<DOCTYPE! html>
+    <html>
+        <head>
+            <title>templates</title>
+            <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        </head>
+        <body>
+            
+            <entry>
+                <!-- Ex 4 -->
+                <!-- <div x-make="switch:2">Block 1</div>
+                <div x-make="switch:3">Block 2</div>
+                <div x-make="switch:5">Block 3</div> -->
+
+                <!-- Ex 3 -->
+                <!-- <section>
+                    <div x-make="switch:2">
+                        <div x-make="remove:5">Block 1</div>
+                        <span>Block 2</span>
+                    </div>
+                    <div x-make="copy:1">
+                        <div x-make="remove:5">Block 3</div>
+                        <div x-make="switch:1">Block 4</div>
+                    </div>
+                    <p>Block 5</p>
+                </section> -->
+
+
+                <!-- Ex 2 -->
+                <!-- <div x-make="removeChildren:2">
+                    <div x-make="copy:100">Block 1</div>
+                    <div>Block 2</div>
+                    <div x-make="switch:7">Block 3</div>
+                    <div>Block 4</div>
+                    <div>Block 5</div>
+                </div> -->
+
+                <!-- Ex 1 -->
+                <div x-make="remove:1">Block 1</div>
+                <div x-make="copy:3">Block 2</div>
+
+                
+
+            </entry>
+            <script src="train.js"></script>
+
+            <script>
+                const entry = document.querySelector('entry');
+                solution(entry);
+            </script>
+        
+        </body>
+    </html>
+
